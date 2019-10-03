@@ -2,7 +2,12 @@ def find_element_index(array, value_to_find)
 if array.include?(value_to_find)
   array.length.times { |index|
   if array[index]==value_to_find
+    return index
+  end
   }
+else
+  return array.include?(value_to_find)
+end
 end
 
 def find_max_value(array)
