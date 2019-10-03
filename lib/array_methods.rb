@@ -1,5 +1,8 @@
 def find_element_index(array, value_to_find)
 famous_cats.include?("Garfield")
+array.length.times { |index|
+  puts array[index]
+}
 end
 
 def find_max_value(array)
