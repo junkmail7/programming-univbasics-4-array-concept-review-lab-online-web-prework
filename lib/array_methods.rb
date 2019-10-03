@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-
+famous_cats.include?("Garfield")
 end
 
 def find_max_value(array)
