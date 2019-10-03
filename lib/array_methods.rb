@@ -6,7 +6,7 @@ if array.include?(value_to_find)
   end
   }
 else
-  return array.include?(value_to_find)
+  return nil
 end
 end
 
